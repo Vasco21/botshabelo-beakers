@@ -44,16 +44,16 @@ const Home = ({ slides }) => {
           <span>Order Your Best Bread</span>
 
           <form>
-            <input type='text' placeholder='Seacrh City' />
+            <input type='text' placeholder='Seacrh' />
             <div className='flex_space'>
-              <input type='date' placeholder='Check In' />
+              <input type='date' placeholder='Order In' />
               <input type='date' placeholder='Check Out' />
             </div>
             <div className='flex_space'>
-              <input type='number' placeholder='Adult(s)(18+)' />
-              <input type='number' placeholder='Children(0- 17)' />
+              <input type='color' placeholder='Bread(White or Brown)' />
+              <input type='number' placeholder='Children(1 - 24)' />
             </div>
-            <input type='number' placeholder='Rooms' />
+            <input type='number' placeholder='Total' />
             <input type='Submit' value='Search' className='submit' />
           </form>
         </div>
