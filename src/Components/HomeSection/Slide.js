@@ -47,7 +47,6 @@ const Home = ({ slides }) => {
             <input type='text' placeholder='Seacrh' />
             <div className='flex_space'>
               <input type='date' placeholder='Order In' />
-              <input type='date' placeholder='Check Out' />
             </div>
             <div className='flex_space'>
               <input type='color' placeholder='Bread(White or Brown)' />
