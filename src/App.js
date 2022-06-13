@@ -12,6 +12,7 @@ import Footer from "./common/footer/Footer";
 import Login from "./Components/login/Login";
 import Register from "./Components/login/Register";
 import Covid from "./common/CovidInfo/Covid";
+import Scrolly from "./Components/scrollToTop/scrollBtn"
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         </Switch>
         <Covid />
         <Footer />
+        <Scrolly/>
       </Router>
     </div>
   );

@@ -9,9 +9,9 @@ const BlogCard = ({ item: { id, cover, title, para, catgeory, date } }) => {
           <img src={cover} alt='Gallery Images' />
         </div>
 
-        <div className='category flex_space'>
+        <div className='category'>
+          <h4>{catgeory}</h4>
           <span>{date}</span>
-          <label>{catgeory}</label>
         </div>
 
         <div className='details'>

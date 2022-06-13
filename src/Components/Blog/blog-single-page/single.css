@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    img{
+        width: 100%;
+    }
+    .category-list hr {
+        border: none;
+        border-bottom: 3px dotted #5b4c43;
+        width: 200px;
+      }
+      .category-list ul {
+        margin-top: 5px;
+      }
+      .category-list ul li {
+        margin-bottom: 15px;
+        transition: 0.5s;
+        margin-right: 0px;
+      
+      }
+      .category-list ul li:hover {
+        color: #5b4c43;
+        transform: translateX(10px);
+        cursor: pointer;
+      }
+      .category-list i {
+        color: #5b4c43;
+        margin-right: 0px;
+      }
+      p{
+        font-size: 15px;
+      }
+}
+@media screen and (max-width: 420px) {
+    p{
+        font-size: 10px;
+      }
+    h1, h2{
+        font-size: 15px;
+    }
+    .category-list h1{
+        font-size: 18px;
+    }
+    .category-list i {
+        color: #5b4c43;
+        margin-right: 0px;
+      }
+}

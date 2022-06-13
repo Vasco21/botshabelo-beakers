@@ -4,6 +4,7 @@ import BlogData from "../BlogData";
 import EmptyFile from "../../../common/Empty/EmptyFile";
 import HeadTitle from "../../../common/HeadTitle/HeadTitle";
 import { useParams } from "react-router-dom";
+import "./single.css"
 
 const BlogSingle = () => {
   const { id } = useParams();
@@ -44,7 +45,6 @@ const BlogSingle = () => {
                 <h2>Two Column Text Sample</h2>
 
                 <div className="para flex_space">
-                  <p>{item.para}</p>
                   <p>{item.para}</p>
                 </div>
               </div>

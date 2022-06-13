@@ -94,3 +94,29 @@
   margin-right: 40px;
 }
 /*---------blog single page------*/
+@media screen and (max-width: 420px) {
+  .blog img {
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .blog .items {
+    padding: 5px;
+  }
+ 
+  .category label {
+    padding: 2px 0px; 
+  }
+  .blog .items h3 {
+    margin: 2px 0 5px 0;
+  }
+  .blog .items p {
+    margin-bottom: 5px;
+  }
+  .blog .items:hover label {
+    background-color: #fff;
+    color: #5b4c43;
+    cursor: pointer;
+  }
+}

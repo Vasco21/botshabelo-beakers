@@ -27,18 +27,12 @@ const Tdata = [
     profile: "https://res.cloudinary.com/creative-power/image/upload/v1655083589/Bots%20bakers/prince_r0e6da.jpg",
     post: "CEO",
   },
+
   {
     id: 5,
     desc: "Creating a bussiness Web App, With innovation of new creation we can make our life easy, changes and good things can lead us to overcome better future and possibilities of wonderful features.",
-    name: "MICHAEL DAVID",
-    profile: "https://res.cloudinary.com/creative-power/image/upload/v1655083590/Bots%20bakers/mosadi_mgoq0a.jpg",
-    post: "Consultant",
-  },
-  {
-    id: 6,
-    desc: "Creating a bussiness Web App, With innovation of new creation we can make our life easy, changes and good things can lead us to overcome better future and possibilities of wonderful features.",
-    name: "EMMANUEL NKOSINATHI MOTHAE",
-    profile: "https://res.cloudinary.com/creative-power/image/upload/v1655083589/Bots%20bakers/luckyB_kft5fr.jpg",
+    name: "EMMANUEL MOTHAE",
+    profile: "https://res.cloudinary.com/creative-power/image/upload/v1655109470/Bots%20bakers/vem_ien5uy.jpg",
     post: "Founder",
   },
 ]

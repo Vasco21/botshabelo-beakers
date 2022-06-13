@@ -42,5 +42,21 @@ figure {
 @media screen and (max-width: 768px) {
   .contact .flex {
     flex-direction: column;
+    width:70vh;
+    align-items: center;
+  }
+  .side-content{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .contact .flex {
+    flex-direction: column;
+    width:50vh;
+    align-items: center;
+  }
+  .side-content{
+    text-align: center;
   }
 }

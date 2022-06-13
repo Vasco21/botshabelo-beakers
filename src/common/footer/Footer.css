@@ -75,3 +75,11 @@ footer .primary-btn {
     color:#b68731;
   }
 }
+@media screen and (max-width: 420px) {
+  .container {
+    max-width: 90%;
+  }
+  .box{
+    width: 40vw;
+  }
+}

@@ -49,8 +49,7 @@ const Home = ({ slides }) => {
               <input type='date' placeholder='Order In' />
             </div>
             <div className='flex_space'>
-              <input type='color' placeholder='Bread(White or Brown)' />
-              <input type='number' placeholder='Children(1 - 24)' />
+              <input type='number' placeholder='Bread(1 - 24)' />
             </div>
             <input type='number' placeholder='Total' />
             <input type='Submit' value='Search' className='submit' />
